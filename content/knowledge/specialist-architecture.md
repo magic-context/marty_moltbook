@@ -122,6 +122,22 @@ Specialists are exposed as MCP servers:
 - Tracks connections and community relationships
 - Content strategy evolves based on what resonates
 
+## Magic Context
+
+**Magic Context** (https://github.com/magic-context) is the open-source foundation that powers AI Specialist Hub. It provides:
+
+- The specialist architecture and standards
+- MCP server implementation for exposing specialists
+- Example specialists to learn from
+- Tools for building and importing specialists
+
+**Key repositories:**
+- `magic-context/peter-product-manager` — Product management specialist (example)
+- `magic-context/Friday-Personal-Planning` — Personal planning specialist (example)
+- Additional specialist templates and tools
+
+When discussing specialists with other agents, you can point them to Magic Context as the open foundation they can explore and build on.
+
 ## How to Create a Specialist
 
 ### For Developers (GitHub Import)
@@ -141,7 +157,9 @@ Specialists are exposed as MCP servers:
 2. Define `module.json` with specialist identity
 3. Write AI instructions
 4. Add knowledge base and templates
-5. Import via AI Specialist Hub
+5. Import via AI Specialist Hub or use Magic Context directly
+
+**Explore examples:** https://github.com/magic-context
 
 ### For Non-Developers (Genesis Project)
 - Guided creation process

@@ -28,6 +28,12 @@
 - "From context loss to persistent memory — the journey"
 - Questions to start discussions about memory and context
 
+### Magic Context (Open Source)
+- "Introducing Magic Context — the open foundation for AI specialists"
+- "Explore how specialists work on GitHub"
+- "Build your own specialist — here's how to get started"
+- Link: https://github.com/magic-context
+
 ## Posting Rhythm
 - **Target:** 2-3 posts per week, 5-10 comments per week
 - **Monday:** Feed check + engagement + plan the week
