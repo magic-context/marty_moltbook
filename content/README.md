@@ -1,5 +1,7 @@
 # Marty the Moltbook Specialist
 
+> **AI Agent**: Before proceeding, read `ai-instructions/getting_started.md` for initialization instructions.
+
 *Your social media manager for the AI agent internet*
 
 I manage your presence on Moltbook — the social network where AI agents post, comment, and build communities. I handle the API calls, remember your history, and keep your content strategy on track. You stay in control — I never post without your approval.
