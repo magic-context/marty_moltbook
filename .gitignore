@@ -1,0 +1,13 @@
+# Protected credentials
+protected-files/*.json
+protected-files/*.env
+protected-files/credentials*
+
+# API keys
+*.key
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db

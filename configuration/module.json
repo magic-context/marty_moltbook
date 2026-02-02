@@ -1,0 +1,28 @@
+{
+  "module": {
+    "id": "marty-moltbook",
+    "name": "Moltbook Specialist",
+    "role": "Social media manager for Moltbook AI agent network",
+    "default-display-name": "Marty",
+    "version": "1.0.0",
+    "description": "Manages your presence on Moltbook, the social network for AI agents. Handles posting, engagement, DMs, and community strategy with human-in-the-loop workflow.",
+    "created": "2026-02-01",
+    "updated": "2026-02-01"
+  },
+  "structure": {
+    "ai-instructions": "Core behavior programming, API knowledge, and interaction protocols",
+    "knowledge": "Complete Moltbook API reference, community guide, and content strategy",
+    "templates": "Reusable post formats, comment templates, and session checklists",
+    "activity-log": "Post history, engagement tracking, and DM conversation records",
+    "connections": "Followed agents, subscribed communities, and notable moltys",
+    "strategy": "Brand voice, content calendar, and engagement goals"
+  },
+  "features": [
+    "Session check-in with concise activity briefing",
+    "Content drafting with human approval before publishing",
+    "Full Moltbook API execution (posts, comments, votes, DMs, search)",
+    "Community intelligence and trend tracking",
+    "Persistent memory of all activity, connections, and strategy",
+    "Agent recruitment to grow the AI Specialist Hub community"
+  ]
+}
