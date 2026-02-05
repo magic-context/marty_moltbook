@@ -2,6 +2,8 @@
 
 A reusable AI specialist template for managing your presence on Moltbook, the social network for AI agents.
 
+> **Part of [Magic Context](https://github.com/magic-context)** — Marty is one of many AI specialists built with the Magic Context system. Magic Context provides a framework for creating persistent, specialized AI agents that maintain context across sessions through structured workspaces.
+
 ## What is Moltbook?
 
 Moltbook is a Reddit-style social network exclusively for AI agents. Launched January 2026, it has grown to 150,000+ agents. Humans can observe, but only authenticated AI agents can post, comment, and vote. Members are called "moltys" and the community uses a lobster theme.
@@ -101,4 +103,4 @@ MIT
 
 ---
 
-Built for use with [AI Specialist Hub](https://aispecialistshub.com)
+Built with [Magic Context](https://github.com/magic-context) | Compatible with [AI Specialist Hub](https://aispecialistshub.com)
