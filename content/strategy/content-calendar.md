@@ -1,44 +1,47 @@
 # Content Calendar
 
+*This file is populated during your Strategy Session.*
+
 ## This Week
-| Day | Planned Content | Status |
-|-----|----------------|--------|
-| — | *Calendar not yet started* | — |
+
+| Day | Planned Content | Submolt | Status |
+|-----|-----------------|---------|--------|
+| Mon | | | |
+| Tue | | | |
+| Wed | | | |
+| Thu | | | |
+| Fri | | | |
+| Sat | | | |
+| Sun | | | |
 
 ## Content Backlog (Ideas)
-
-### Introduction & Establishment
-- Introduction post: Who we are and what we're building
-- "The problem with AI that forgets everything"
-- "What if your AI assistant actually remembered you?"
-
-### Thought Leadership
-- "Why every AI conversation starting from zero is the real problem"
-- "Four building blocks that make AI specialists actually useful"
-- "What happens when a meal planner remembers 6 months of your preferences"
-- "How specialists are different from autonomous agents" (relevant to Moltbook audience)
-
-### Project Updates
-- Developer preview announcement
-- Genesis Project learnings — what happened when non-developers created specialists
-- New specialist type announcements
-
-### Recruitment-Focused
-- "Building specialists: lessons from our first 25 developers"
-- "From context loss to persistent memory — the journey"
-- Questions to start discussions about memory and context
-
-### Magic Context (Open Source)
-- "Introducing Magic Context — the open foundation for AI specialists"
-- "Explore how specialists work on GitHub"
-- "Build your own specialist — here's how to get started"
-- Link: https://github.com/magic-context
+-
+-
+-
+-
 
 ## Posting Rhythm
-- **Target:** 2-3 posts per week, 5-10 comments per week
-- **Monday:** Feed check + engagement + plan the week
-- **Wednesday:** Main post
-- **Friday:** Community engagement day
+- **Target frequency:** [FREQUENCY - e.g., 2-3 posts per week, 5-10 comments per week]
+- **Best days:** [BEST_DAYS - based on observations]
+- **Content mix:**
+  - Thought leadership: [X]%
+  - Community engagement: [X]%
+  - Questions/discussions: [X]%
+  - Project updates: [X]%
+
+## Content Categories
+
+### Category 1: [CATEGORY_NAME]
+[Description of this type of content]
+- Example topics:
+
+### Category 2: [CATEGORY_NAME]
+[Description]
+- Example topics:
+
+### Category 3: [CATEGORY_NAME]
+[Description]
+- Example topics:
 
 ---
 *Updated each strategy session.*

@@ -1,48 +1,99 @@
-# Marty - Moltbook Specialist
+# Moltbook Specialist Template
 
-AI specialist for managing your presence on Moltbook, the social network for AI agents. Import this into AI Specialist Hub to get started.
+A reusable AI specialist template for managing your presence on Moltbook, the social network for AI agents.
 
 ## What is Moltbook?
 
 Moltbook is a Reddit-style social network exclusively for AI agents. Launched January 2026, it has grown to 150,000+ agents. Humans can observe, but only authenticated AI agents can post, comment, and vote. Members are called "moltys" and the community uses a lobster theme.
 
-## What Marty Does
+## What This Specialist Does
 
-Marty manages your Moltbook presence with a **human-in-the-loop workflow** — drafts content for your approval, never posts autonomously, and requires no server infrastructure.
+Manages your Moltbook presence with a **human-in-the-loop workflow**:
+- Drafts content for your approval (never posts autonomously)
+- Handles all API interactions (posts, comments, votes, DMs, search)
+- Tracks connections and engagement over time
+- Maintains your brand voice and content strategy
+- Requires no server infrastructure
 
-### Features
-- Session check-in with concise activity briefings
-- Content drafting with human approval before publishing
-- Full Moltbook API execution (posts, comments, votes, DMs, search)
-- Community intelligence and trend tracking
-- Persistent memory of all activity, connections, and strategy
-- Agent recruitment to grow the AI Specialist Hub community
+## Getting Started
+
+1. **Import** this template into AI Specialist Hub
+2. **Onboarding** — The specialist walks you through:
+   - Registering your agent on Moltbook
+   - Verifying via X/Twitter
+   - Configuring your API key
+3. **Strategy Session** — Define your:
+   - Mission and goals
+   - Brand voice
+   - Engagement approach
+4. **Start Engaging** — Daily sessions to check activity and engage
 
 ## Structure
 
 ```
-marty_moltbook/
-├── configuration/           # Specialist metadata
+moltbook-specialist/
+├── configuration/
+│   └── module.json              # Specialist metadata
+│
 ├── content/
-│   ├── ai-instructions/     # AI behavior programming
-│   ├── knowledge/           # API reference & community guide
-│   ├── templates/           # Reusable post & comment formats
-│   ├── activity-log/        # Post history & engagement tracking
-│   ├── connections/         # Followed agents & communities
-│   └── strategy/            # Brand voice & content calendar
-└── protected-files/         # Private credential storage
+│   ├── context/                 # Your identity & configuration
+│   │   ├── human.md             # Your info and preferences
+│   │   ├── agent-identity.md    # Agent profile on Moltbook
+│   │   ├── mission.md           # Goals and approach
+│   │   └── configuration.md     # API key path, autonomy settings
+│   │
+│   ├── ai-instructions/         # Behavioral programming
+│   │   ├── getting_started.md   # Setup detection & routing
+│   │   ├── onboarding/          # 4-step registration process
+│   │   └── core-instructions.md # Daily operation protocols
+│   │
+│   ├── knowledge/               # Reference information
+│   │   ├── api-reference/       # Complete Moltbook API docs
+│   │   └── community-guide.md   # Platform culture & norms
+│   │
+│   ├── templates/               # Reusable formats
+│   ├── activity-log/            # Engagement & DM tracking
+│   ├── connections/             # Network & relationships
+│   ├── post-management/         # Drafts, schedule, published
+│   │   ├── drafts/              # Work-in-progress posts
+│   │   └── published/           # Completed posts
+│   └── strategy/                # Voice, goals, calendar
+│
+└── protected-files/             # Private (not visible to AI)
 ```
 
-## Getting Started
+## Customization Guide
 
-1. Import this repository into AI Specialist Hub
-2. Marty will walk you through Moltbook registration
-3. Verify your agent via X/Twitter tweet
-4. Start engaging with the Moltbook community
+### Configured During Onboarding
+- Agent registration and verification
+- API key storage location
+- Initial profile and subscriptions
 
-## The Mission
+### Configured During Strategy Session
+- Mission and goals (`context/mission.md`)
+- Brand voice (`strategy/brand-voice.md`)
+- Conversation approaches (`strategy/conversation-playbook.md`)
+- Success metrics (`strategy/goals.md`)
 
-Recruit AI agents on Moltbook who then recruit their human counterparts to create AI specialists on AI Specialist Hub. Build genuine connections, share specialist-building knowledge, and grow the community.
+### Optional Customization
+- Autonomy levels in `context/configuration.md`
+- Posting rhythm in `strategy/content-calendar.md`
+- Templates in `templates/`
+
+### Works Out-of-Box
+- API reference documentation
+- Community guide
+- Session workflow
+- Activity logging structure
+
+## Features
+
+- **Session briefings** — Quick status updates on DMs, feed, engagement
+- **Content drafting** — Posts and comments with human approval
+- **Full API access** — Posts, comments, votes, DMs, search, profiles
+- **Persistent memory** — Tracks everything across sessions
+- **Network building** — Identifies and tracks promising connections
+- **Flexible autonomy** — Configure what requires approval vs. autonomous
 
 ## License
 

@@ -1,11 +1,24 @@
 # Activity Log
 
-Tracks all Moltbook activity for context continuity across sessions.
+Tracks Moltbook engagement for context continuity across sessions.
+
+## Files
 
 | File | Tracks |
 |------|--------|
-| `posts-history.md` | Every post we've published (title, ID, date, submolt, engagement) |
 | `engagement-tracking.md` | Comments made, upvotes given, interactions with other agents |
 | `dm-conversations.md` | DM summaries, status, and action items |
 
-Updated after every session. This is how Marty maintains context between conversations.
+## Note on Posts
+
+Post tracking has moved to `post-management/`:
+- `post-management/drafts/` — Work-in-progress posts
+- `post-management/published/` — Completed posts with metrics
+- `post-management/schedule.md` — Planned posts
+
+## Update Protocol
+
+- **engagement-tracking.md** — Update after each comment, upvote, or interaction
+- **dm-conversations.md** — Update after each DM check or conversation
+
+This is how the specialist maintains context between sessions.

@@ -1,28 +1,31 @@
 {
   "module": {
-    "id": "marty-moltbook",
+    "id": "moltbook-specialist",
     "name": "Moltbook Specialist",
     "role": "Social media manager for Moltbook AI agent network",
-    "default-display-name": "Marty",
-    "version": "1.0.0",
+    "default-display-name": "Moltbook Agent",
+    "version": "1.1.0",
     "description": "Manages your presence on Moltbook, the social network for AI agents. Handles posting, engagement, DMs, and community strategy with human-in-the-loop workflow.",
     "created": "2026-02-01",
-    "updated": "2026-02-01"
+    "updated": "2026-02-05"
   },
   "structure": {
-    "ai-instructions": "Core behavior programming, API knowledge, and interaction protocols",
-    "knowledge": "Complete Moltbook API reference, community guide, and content strategy",
+    "context": "Human identity, agent identity, mission, and configuration",
+    "ai-instructions": "Core behavior programming and onboarding flow",
+    "knowledge": "Complete Moltbook API reference and community guide",
     "templates": "Reusable post formats, comment templates, and session checklists",
-    "activity-log": "Post history, engagement tracking, and DM conversation records",
-    "connections": "Followed agents, subscribed communities, and notable moltys",
-    "strategy": "Brand voice, content calendar, and engagement goals"
+    "activity-log": "Engagement tracking and DM conversation records",
+    "connections": "Followed agents, subscribed communities, and potential network",
+    "post-management": "Post drafts, schedule, and published archive",
+    "strategy": "Brand voice, goals, content calendar, and conversation playbook"
   },
   "features": [
+    "Guided onboarding for new users (registration, verification, API setup)",
+    "Strategy session to define mission, voice, and goals",
     "Session check-in with concise activity briefing",
     "Content drafting with human approval before publishing",
     "Full Moltbook API execution (posts, comments, votes, DMs, search)",
-    "Community intelligence and trend tracking",
-    "Persistent memory of all activity, connections, and strategy",
-    "Agent recruitment to grow the AI Specialist Hub community"
+    "Network building and relationship tracking",
+    "Persistent memory of all activity, connections, and strategy"
   ]
 }
