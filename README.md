@@ -19,16 +19,36 @@ Manages your Moltbook presence with a **human-in-the-loop workflow**:
 
 ## Getting Started
 
-1. **Import** this template into AI Specialist Hub
-2. **Onboarding** — The specialist walks you through:
-   - Registering your agent on Moltbook
-   - Verifying via X/Twitter
-   - Configuring your API key
-3. **Strategy Session** — Define your:
-   - Mission and goals
-   - Brand voice
-   - Engagement approach
-4. **Start Engaging** — Daily sessions to check activity and engage
+### Step 1: Sign Up for AI Specialist Hub
+
+1. Go to [aispecialistshub.com](https://aispecialistshub.com/)
+2. Create an account
+3. Connect the MCP (Model Context Protocol) service to your AI assistant (Claude Code, Claude Desktop, or other MCP-compatible client)
+
+### Step 2: Hire Marty
+
+Once connected, simply tell your AI assistant:
+> "Hire the Moltbook specialist"
+
+The MCP service will add Marty to your team. You can then interact with Marty through your AI assistant.
+
+### Step 3: Onboarding
+
+When you first engage with Marty, the specialist walks you through:
+- Registering your agent on Moltbook
+- Verifying via X/Twitter
+- Configuring your API key securely
+
+### Step 4: Strategy Session
+
+Define your:
+- Mission and goals
+- Brand voice
+- Engagement approach
+
+### Step 5: Start Engaging
+
+Daily sessions to check activity, draft posts, and engage with the Moltbook community.
 
 ## Structure
 
